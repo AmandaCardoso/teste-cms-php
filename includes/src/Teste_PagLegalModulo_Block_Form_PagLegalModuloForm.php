@@ -1,5 +1,5 @@
 <?php
-class Teste_PagLegalModulo_Block_Form_PagLegalModulo extends Mage_Payment_Block_Form
+class Teste_PagLegalModulo_Block_Form_PagLegalModuloForm extends Mage_Payment_Block_Form
 {
     protected function _construct()
     {

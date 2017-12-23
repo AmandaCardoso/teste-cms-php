@@ -35,11 +35,15 @@
 
     </global>
 
+    <!--
+        No final do arquivo definimos os valores padrões dos campos criados no arquivo "system.xml".
+
+    -->
     <default>
         <payment>
             <paglegalmodulo>
                 <active>1</active>
-                <model>paglegalmodulo/paglegalmodulomodel</model>
+                <model>Teste_PagLegalModulo_Model_PagLegalModuloModel</model>
                 <order_status>pending</order_status>
                 <title>PagLegal</title>
                 <allowspecific>0</allowspecific>
@@ -54,11 +58,10 @@
                 <use>standard</use>
                 <args>
                     <module>Teste_PagLegalModulo</module>
-                    <frontName>PagLegalModulo</frontName>
+                    <frontName>paglegalmodulo</frontName>
                 </args>
             </paglegalmodulo>
         </routers>
     </frontend>
-
 
 </config>

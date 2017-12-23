@@ -1,0 +1,8 @@
+a:5:{i:0;s:51:"Controller file was loaded but class does not exist";i:1;s:882:"#0 C:\xampp\htdocs\magento\includes\src\__default.php(18558): Mage::exception('Mage_Core', 'Controller file...')
+#1 C:\xampp\htdocs\magento\includes\src\__default.php(18525): Mage_Core_Controller_Varien_Router_Standard->_includeControllerClass('C:\\xampp\\htdocs...', 'Teste_PagLegalM...')
+#2 C:\xampp\htdocs\magento\includes\src\__default.php(18428): Mage_Core_Controller_Varien_Router_Standard->_validateControllerClassName('Teste_PagLegalM...', 'paglegalmodulo')
+#3 C:\xampp\htdocs\magento\includes\src\__default.php(18016): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#4 C:\xampp\htdocs\magento\includes\src\__default.php(20808): Mage_Core_Controller_Varien_Front->dispatch()
+#5 C:\xampp\htdocs\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#6 C:\xampp\htdocs\magento\index.php(87): Mage::run('', 'store')
+#7 {main}";s:3:"url";s:58:"/magento/index.php/paglegalmodulo/paglegalmodulo/redirect/";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:7:"default";}
